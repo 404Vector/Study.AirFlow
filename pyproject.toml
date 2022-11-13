@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "study-airflow"
+version = "0.1.0"
+description = ""
+authors = ["Hyeongseok Kim <tiryul@gmail.com>"]
+license = "mit"
+readme = "README.md"
+packages = [{include = "study"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apache-airflow = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
